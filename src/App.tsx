@@ -10,10 +10,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container mx-auto">
-      <div className="flex items-center border-2 border-solid rounded-xl shadow-md p-2 mt-2 ">
-        <h3 className="font-display font-bold py-2">Heimdall</h3>
-        <div className="grow flex justify-center">
+    <div className="h-screen bg-gradient-to-r from-cyan-500 to-blue-500 pt-2">
+      <div className="flex items-center px-2">
+        <h3 className="py-2 font-bold font-display text-2xl text-slate-50">
+          Heimdall
+        </h3>
+        <div className="flex grow justify-center">
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -29,13 +31,17 @@ function App() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <Button>Login</Button>
+        <Button className="bg-slate-50 text-accent-foreground hover:bg-blue-950 hover:text-slate-50">
+          Login
+        </Button>
       </div>
-      <h2 className="font-display text-4xl text-center mt-8">
-        All-Seeing System
-        <br />
-        for Healthcare Professionals
-      </h2>
+      <div className="flex h-1/3 flex-col justify-center">
+        <h2 className="text-center font-display text-6xl text-slate-50">
+          All-Seeing System
+          <br />
+          for Healthcare Professionals
+        </h2>
+      </div>
     </div>
   );
 }
