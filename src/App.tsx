@@ -31,7 +31,7 @@ function App() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <Button className="bg-slate-50 text-accent-foreground hover:bg-blue-950 hover:text-slate-50">
+        <Button className="border-2 border-solid bg-transparent text-slate-50 hover:bg-slate-50 hover:text-accent-foreground">
           Login
         </Button>
       </div>
