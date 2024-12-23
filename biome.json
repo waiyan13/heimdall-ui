@@ -17,9 +17,13 @@
 		"enabled": true
 	},
 	"linter": {
-		"enabled": false,
+		"enabled": true,
 		"rules": {
-			"recommended": true
+      "nursery": {
+        "useSortedClasses": {
+          "level": "warn"
+        }
+      }
 		}
 	},
 	"javascript": {
