@@ -13,7 +13,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="h-screen bg-gradient-to-r from-cyan-500 to-blue-500 pt-2">
+    <div className="h-dvh bg-gradient-to-r from-cyan-500 to-blue-500 pt-2">
       <div className="flex items-center px-2">
         <h3 className="py-2 font-bold font-display text-2xl text-slate-50">
           Heimdall
